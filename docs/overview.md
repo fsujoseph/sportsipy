@@ -12,7 +12,7 @@ The Team module is used to grab high-level stats and information for a specific 
 
 Available attributes - team abbreivation, team name, average age, games played (season), team total stats, rank, wins, losses.
 
-Supported sports - Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB
+Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
 Schedule
 --------
@@ -21,7 +21,7 @@ The Schedule module can be used to iterate over all games in a team's schedule t
 
 Available attributes (per game) - Boxscore class, other high level information not in boxscore such as game #, overtime (yes/no)
 
-Supported sports - Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB
+Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
 Roster
 --------
@@ -30,7 +30,7 @@ The Roster module contains detailed player information for every player on a tea
 
 Available attributes - See Player module
 
-Supported sports - Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB
+Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
 Boxscore
 --------
