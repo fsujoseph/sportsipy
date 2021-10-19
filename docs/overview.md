@@ -1,7 +1,7 @@
 Overview
 ===========
 
-Sportsipy has API's covering Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy that should be known right off the bat is that virtually any sport-related statistic for these leagues, teams, and players can be found. You can use the search box on this site https://sportsipy.readthedocs.io/en/latest/index.html to find the exact command for whatever you are looking for!
+Sportsipy covers Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy that should be known right off the bat is that virtually any sport-related statistic for these leagues, teams, and players can be found. You can use the search box on this site https://sportsipy.readthedocs.io/en/latest/index.html to find the exact command for whatever you are looking for!
 
 Team - (Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB)
 
