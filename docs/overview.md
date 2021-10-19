@@ -19,7 +19,7 @@ Schedule
 
 The Schedule module can be used to iterate over all games in a team's schedule to get high-level game information such as the date, score, result, and more.
 
-Available attributes (per game) - Boxscore class, other high level information not in boxscore such as game #, overtime (yes/no), etc.
+Available attributes (per game) - Boxscore class, other high level information not in boxscore such as game #, overtime (yes/no)
 
 Supported sports - (Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB)
 
