@@ -1,7 +1,7 @@
 Overview
 ===========
 
-Sportsipy is available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy that should be known right off the bat is that virtually any sport-related statistic for these leagues, teams, and players can be found. You can use the search box on this site containing the documentation https://sportsipy.readthedocs.io/en/latest/index.html to find the exact command for whatever you are looking for!
+Sportsipy is available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy is that virtually any sport-related statistic for these teams and players can be found. You can use the search box on this site containing the documentation https://sportsipy.readthedocs.io/en/latest/index.html to find the exact command for whatever you are looking for!
 
 Team - (Soccer, MLB/NBA/NFL/NHL/NCAAF/NCAAB)
 
@@ -34,3 +34,15 @@ Player - (MLB/NBA/NFL/NHL/NCAAF/NCAAB)
 The Player module contains player information and stats for all seasons. Given a player ID you can capture all relevant stats and information like name, team, height/weight, career stats, single-season stats, and much more. This class can also be found within the Roster module and Boxscore module.
 
 Available attributes are - player stats (career, single season, single game, etc.)
+
+Conferences - (NCAAB/NCAAF)
+
+The Conference module allows conferences to be pulled for any season. Accessing the class properties exposes various dictionaries containing the team and conference abbreviations as well as other information.
+
+Available attributes - conferences, Teams class
+
+Rankings - (NCAAB/NCAAF)
+
+The Rankings module can be used to easily query the NCAA Men's Division-I Football rankings published by the Associated Press on a week-by-week basis. Different formats can be referenced, ranging from a lightweight dictionary of the most recent rankings containing only the team abbreviation and rank, to a much larger dictionary of all rankings for an entire season with results including full team name and abbreviation, current rank, week number, previous rank, and movement.
+
+Available attributes - current, complete (by week)
