@@ -1,7 +1,7 @@
 Overview
 ===========
 
-Sportsipy is currently available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy is that virtually any sport-related statistic for these teams and players can be found. You can use the search box on this site containing the [documentation](http://sportsipy.readthedocs.io/en/latest) to find the exact command for whatever you are looking for.
+Sportsipy is currently available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This document serves as a brief overview of what Sportsipy has to offer. The great thing about Sportsipy is that almost any sport-related statistic for these teams and players can be found. You can use the search box on this site containing the [documentation](http://sportsipy.readthedocs.io/en/latest) to find the exact command for whatever you are looking for.
 
 Team
 --------
