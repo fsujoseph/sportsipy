@@ -37,9 +37,7 @@ Boxscore
 
 The Boxscore module can be used to grab information from a specific game.
 
-Available attributes are - arena, attendance, date, duration, and game stats relative to the sport.
-
-You can also access the Player module from within the Boxscore module to get the player specific stats for that game.
+Available attributes are - arena, attendance, date, duration, game stats relative to the sport, Player class
 
 Supported sports - MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
