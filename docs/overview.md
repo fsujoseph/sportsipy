@@ -5,7 +5,7 @@ Sportsipy is currently available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAA
 
 Shown below, each module is covered at a high level. The listed available attributes aren't all encompasing, they are meant to give a general idea of what each module has to offer.
 
-Team
+Team - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 --------
 
 The Team module is used to grab high-level stats and information for a specific team. Each Team instance can be used to access the Schedule and Roster classes.
