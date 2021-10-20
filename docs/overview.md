@@ -10,7 +10,7 @@ Team
 
 The Team module is used to grab high-level stats and information for a specific team. Each Team instance can be used to access the Schedule and Roster classes.
 
-Available attributes - team abbreivation, team name, average age, games played (season), team total stats, rank, wins, losses.
+Available attributes - team abbreivation, team name, average age, games played (season), team total stats, rank, wins, losses, Schedule class, Roster class
 
 Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
