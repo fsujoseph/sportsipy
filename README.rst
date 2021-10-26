@@ -19,7 +19,7 @@ leagues in North America, such as the MLB, NBA, College Football and Basketball,
 NFL, and NHL. Sportsipy also now supports Professional Football (or
 Soccer) for thousands of teams from leagues around the world. Every sport has
 its own set of valid API queries. A deeper description of what the project offers can
-be found `here <https://github.com/fsujoseph/sportsipy/blob/master/docs/overview.md/>`_ 
+be found `here <https://github.com/fsujoseph/sportsipy/blob/master/docs/overview.md/>`_. 
 
 Installation
 ============
