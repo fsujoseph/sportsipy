@@ -71,7 +71,7 @@ Each module below is covered at a high level. Sportsipy makes heavy use of class
                 * Boxscore Module (Purdue vs. Indiana 2/19/19)
 
             
-At each stage, almost any statistic you can think of is accessible. With that in mind, more information is covered below!
+At each stage/module, almost any statistic you can think of is accessible. With that in mind, more information is covered below!
 
 Team
 --------
