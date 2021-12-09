@@ -68,16 +68,12 @@ The Team module is used to grab high-level stats and information for a specific 
 
 Available attributes - team abbreivation, team name, average age, games played (season), team total stats, rank, wins, losses, Schedule class, Roster class
 
-Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
-
 Schedule
 --------
 
 The Schedule module can be used to iterate over all games in a team's schedule to get high-level game information such as the date, score, result, and more.
 
 Available attributes (per game) - Boxscore class, other high level information not in boxscore such as game #, overtime (yes/no)
-
-Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
 Roster
 --------
@@ -86,16 +82,12 @@ The Roster module contains detailed player information for every player on a tea
 
 Available attributes - See Player module
 
-Supported sports - Soccer/MLB/NBA/NFL/NHL/NCAAF/NCAAB
-
 Boxscore
 --------
 
 The Boxscore module can be used to grab information from a specific game.
 
 Available attributes are - arena, attendance, date, duration, game stats relative to the sport, Player class
-
-Supported sports - MLB/NBA/NFL/NHL/NCAAF/NCAAB
 
 Player
 --------
@@ -104,8 +96,6 @@ The Player module contains player information and stats for all seasons. You can
 
 Available attributes are - player stats (career, single season, single game, etc.)
 
-Supported sports - MLB/NBA/NFL/NHL/NCAAF/NCAAB
-
 Conferences
 --------
 
@@ -113,16 +103,12 @@ The Conference module allows conferences to be pulled for any season. Accessing 
 
 Available attributes - conferences, Teams class
 
-Supported sports - NCAAF/NCAAB
-
 Rankings
 --------
 
 The Rankings module can be used to easily query the NCAA Men's Division-I rankings published by the Associated Press on a week-by-week basis. Different formats can be referenced, ranging from a lightweight dictionary of the most recent rankings containing only the team abbreviation and rank, to a much larger dictionary of all rankings for an entire season with results including full team name and abbreviation, current rank, week number, previous rank, and movement.
 
 Available attributes - current, complete (by week)
-
-Supported sports - NCAAF/NCAAB
 
 Examples
 ========
