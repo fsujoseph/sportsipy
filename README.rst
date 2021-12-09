@@ -1,4 +1,4 @@
-Sportsipy: A free sports API written for python
+Sportsipy: A free sports API written for Python
 ###############################################
 .. image:: https://github.com/roclark/sportsipy/workflows/Sportsipy%20push%20tests/badge.svg
     :target: https://github.com/roclark/sportsipy/actions
