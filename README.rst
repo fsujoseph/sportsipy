@@ -63,12 +63,12 @@ Sportsipy is currently available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAA
 Each module below is covered at a high level. Sportsipy makes heavy use of classes/modules and they are all interconnected. For example:
 
 * NCAAB Package
-* Conference Module (Big 10)
-    * Team Module (Purdue Basketball, 2019 - 2020)
-        * Roster Module
-            * Player Module (Carsen Edwards)
-        * Schedule Module
-            * Boxscore Module (Purdue vs. Indiana 2/19/19)
+    * Conference Module (Big 10)
+        * Team Module (Purdue Basketball, 2019 - 2020)
+            * Roster Module
+                * Player Module (Carsen Edwards)
+            * Schedule Module
+                * Boxscore Module (Purdue vs. Indiana 2/19/19)
 
             
 At each stage, almost any statistic you can think of is accessible. With that in mind, more information is covered below!
