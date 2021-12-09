@@ -14,11 +14,7 @@ Sportsipy is a free python API that pulls the stats from
 www.sports-reference.com and allows them to be easily be used in python-based
 applications, especially ones involving data analytics and machine learning.
 
-Sportsipy exposes a plethora of sports information from major sports
-leagues in North America, such as the MLB, NBA, College Football and Basketball,
-NFL, and NHL. Sportsipy also now supports Professional Football (or
-Soccer) for thousands of teams from leagues around the world. Every sport has
-its own set of valid API queries.
+Sportsipy exposes a plethora of sports information from major sports leagues in North America, such as the MLB, NBA, College Football and Basketball, NFL, and NHL. Sportsipy also now supports Professional Football (or Soccer) for thousands of teams from leagues around the world. Every sport has its own set of valid API queries ranging from the list of teams in a league, to the date and time of a game, to the total number of wins a team has secured during the season, and many, many more metrics that paint a more detailed picture of how a team has performed during a game or throughout a season.
 
 Installation
 ============
