@@ -60,56 +60,52 @@ Overview
 Sportsipy is currently available for Soccer, MLB, NBA, NFL, NHL, NCAAF, and NCAAB. This section serves as a brief overview of what Sportsipy has to offer. Almost any sport-related statistic for teams, leagues, and players can be found. You can use the search box in the 
 `readthedocs.org <http://sportsipy.readthedocs.io/en/latest>`_  to track down what you are looking for.
 
-Each module below is covered at a high level. The listed available attributes aren't all encompasing, they are meant to give a general idea of what each module has to offer.
+Each module below is covered at a high level. Sportsipy makes heavy use of classes/modules and they are all interconnected. For example:
+
+- Conference Module (Big 10)
+    - Team Module (Purdue Basketball, 2019 - 2020)
+        - Roster
+            - Player (Carsen Edwards)
+        - Schedule
+            - Boxscore (Purdue vs. Indiana 2/19/19)
+                - Player (*can access any player in the Boxscore)
+            
+At each stage, almost any statistic you can think of is accessible. With that in mind, more information is covered below!
 
 Team
 --------
 
-The Team module is used to grab high-level stats and information for a specific team. Each Team instance can be used to access the Schedule and Roster classes.
-
-Available attributes - team abbreivation, team name, average age, games played (season), team total stats, rank, wins, losses, Schedule class, Roster class
+The Team module is used to grab high-level stats and information for a specific team such as record, ranking, games played, etc. Each Team instance can be used to access the Schedule and Roster classes.
 
 Schedule
 --------
 
-The Schedule module can be used to iterate over all games in a team's schedule to get high-level game information such as the date, score, result, and more.
-
-Available attributes (per game) - Boxscore class, other high level information not in boxscore such as game #, overtime (yes/no)
+The Schedule module can be used to iterate over all games in a team's schedule to get high-level game information such as the date, score, result, and more. Each game in the schedule is part of the Boxscore class, which contains detailed statistics for a specific game.
 
 Roster
 --------
 
-The Roster module contains detailed player information for every player on a team's roster.
-
-Available attributes - See Player module
+The Roster module contains the players for a team, which you can use to access the Player module for each player to obtain player specific information.
 
 Boxscore
 --------
 
-The Boxscore module can be used to grab information from a specific game.
-
-Available attributes are - arena, attendance, date, duration, game stats relative to the sport, Player class
+The Boxscore module is used to retrieve information for any given game such as player statistics, score, winner/loser, location, date, etc. You also can directly access the Player module for each player in the game.
 
 Player
 --------
 
-The Player module contains player information and stats for all seasons. You can capture all relevant stats and information like name, team, height/weight, career stats, single-season stats, and much more. This class can also be found within the Roster module and Boxscore module.
-
-Available attributes are - player stats (career, single season, single game, etc.)
+The Player module contains player information and stats for all seasons. You can capture all relevant stats and information like name, team, height/weight, career stats, single-season stats, and much more.
 
 Conferences
 --------
 
-The Conference module allows conferences to be pulled for any season. Accessing the class properties exposes various dictionaries containing the team and conference abbreviations as well as other information.
-
-Available attributes - conferences, Teams class
+The Conference module allows conference information to be accessed for any season. Accessing the class properties allows you to find teams by conference as well as conference specific stats and information.
 
 Rankings
 --------
 
-The Rankings module can be used to easily query the NCAA Men's Division-I rankings published by the Associated Press on a week-by-week basis. Different formats can be referenced, ranging from a lightweight dictionary of the most recent rankings containing only the team abbreviation and rank, to a much larger dictionary of all rankings for an entire season with results including full team name and abbreviation, current rank, week number, previous rank, and movement.
-
-Available attributes - current, complete (by week)
+The Rankings module is part of the NCAAF and NCAAB packages published by the Associated Press on a week-by-week basis. You can find things such as teams, current rank, week number, previous rank, and rankings movement.
 
 Examples
 ========
