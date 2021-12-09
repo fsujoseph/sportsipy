@@ -18,8 +18,7 @@ Sportsipy exposes a plethora of sports information from major sports
 leagues in North America, such as the MLB, NBA, College Football and Basketball,
 NFL, and NHL. Sportsipy also now supports Professional Football (or
 Soccer) for thousands of teams from leagues around the world. Every sport has
-its own set of valid API queries. A deeper description of what the project offers can
-be found `here <https://github.com/fsujoseph/sportsipy/blob/master/docs/overview.md/>`_. 
+its own set of valid API queries.
 
 Installation
 ============
